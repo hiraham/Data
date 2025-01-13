@@ -5,7 +5,7 @@ import Link from "next/link"; // Optional: If you want to link to other pages
 
 const MainPage = () => {
   return (
-    <div className="min-h-screen bg-pink-100 flex flex-col items-center justify-center p-4">
+    <div className="min-h-screen flex flex-col items-center justify-center p-4 bg-slate-400">
       <h1 className="text-4xl font-bold text-center mb-6 text-gray-800">
         Welcome to the Todo App
       </h1>
@@ -15,7 +15,7 @@ const MainPage = () => {
       
       {/* Button to navigate to the Todos page */}
       <Link
-        href="/fatchData"
+        href="/FatchData"
         className="bg-blue-500 text-white px-6 py-3 rounded-full shadow-md hover:bg-blue-600 transition duration-300 mb-4"
       >
         View Todo List
